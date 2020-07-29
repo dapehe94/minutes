@@ -1,0 +1,39 @@
+{
+  "name": "Minutes",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cornflourblue/vue-vuex-registration-login-example.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --open"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-basic-styles": "^11.1.4",
+    "@ckeditor/ckeditor5-build-classic": "^12.4.0",
+    "@ckeditor/ckeditor5-vue": "^1.0.0-beta.2",
+    "buefy": "^0.8.2",
+    "moment": "^2.24.0",
+    "vue": "^2.6.10",
+    "vue-avatar": "^2.1.7",
+    "vee-validate": "^2.1.0",
+    "vue-router": "^3.1.2",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-vue": "^2.0.2",
+    "css-loader": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "path": "^0.12.7",
+    "vue-loader": "^14.2.4",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  }
+}

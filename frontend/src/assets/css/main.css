@@ -1,0 +1,201 @@
+/*@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans|Oswald|Raleway|Roboto');*/
+
+@import url('vendor/buefy.css');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+/*
+* {
+	font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	font: inherit;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-font-smoothing: subpixel-antialiased;   
+}
+*/
+html{
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+body {
+    font-family: "Nunito", sans-serif;
+    color: #757763;
+    padding-top: 4.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;  
+}
+
+/* General */
+h1 {
+    color: #363636;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.125;    
+}
+h2 {
+    color: #757763;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.25;    
+    word-break: break-word;
+}
+h3 {
+    font-size: 1.2rem;
+}
+h4 {
+    font-size: 1.1rem;
+}
+.red {
+    color: #ff4546;
+}
+.pointer {
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    background: transparent;
+    height: 8px;
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #dadce0;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+/* NavBar */
+/* Company Selector */
+.scrollable {
+    height: auto;
+    overflow-x: hidden;
+}
+.maxh300 {
+    max-height: 300px;
+}
+.h365 {
+    height: 365px;
+}
+.maxh400 {
+    max-height: 400px;
+}
+.minh400 {
+    min-height: 400px;
+}
+/* Forms */
+/* Create minute */
+
+#createminute .input, .taginput .taginput-container.is-focusable, .textarea {
+    background-color: #f1f3f4;
+    box-shadow: none;
+    border: none;
+}
+#createminute > div.field > div.control > .input:focus, .input:active, .textarea:focus, .textarea:active {
+                border-color: transparent;
+                box-shadow: none;
+                border-bottom: 2px solid #7957d5;
+            }
+#createminute > div.field.is-horizontal > div.field > div > div > div > div >.input:focus, .input:active {
+                border-color: transparent;
+                box-shadow: none;
+                border-bottom: 2px solid #7957d5;
+            }
+#createminute > div > div.taginput.control > div.taginput-container.is-focusable:active {
+    border-color: transparent;
+    box-shadow: none;
+    border-bottom: 2px solid #7957d5;
+}
+#createminute > div > div.taginput.control > div.taginput-container.is-focusable:focus {
+    border-color: transparent;
+    box-shadow: none;
+    border-bottom: 2px solid #7957d5;    
+}
+#createminute > div > div.taginput.control > div.taginput-container.is-focused:active {
+    border-color: transparent;
+    box-shadow: none;    
+    border-bottom: 2px solid #7957d5;    
+}
+#createminute > div > div.taginput.control > div.taginput-container.is-focused:focus {
+    border-color: transparent;
+    box-shadow: none;
+    border-bottom: 2px solid #7957d5;    
+}
+#createminute > div > div.taginput.control > div.taginput-container.is-focused:hover {
+    border-color: transparent;
+    box-shadow: none;
+    border-bottom: 2px solid #7957d5;    
+}
+#createminute > div > div.taginput.control > div.taginput-container.is-focused:focus-within {
+    border-color: transparent;
+    box-shadow: none;
+    border-bottom: 2px solid #7957d5;    
+}
+#createminute > div > div.taginput.control > div.taginput-container.is-focused:visited {
+    border-color: transparent;
+    box-shadow: none;
+    border-bottom: 2px solid #7957d5;    
+}
+#createminute > div > div > div > div > div > .ck.ck-toolbar {
+    background-color: #f1f3f4;
+    border: none;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+#createminute > div > div > div > .ck.ck-content {
+    background-color: #f1f3f4;
+    border: none;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    height: 200px;
+}
+#createminute > div > div > div > .ck.ck-content > ol {
+    padding-left: 40px;
+}
+#createminute > div > div > div > .ck.ck-content > ul {
+    list-style-type: circle;
+    padding-left: 40px;
+}
+#createminute > div > div > div > div > div > div > .ck.ck-toolbar__separator {
+    background: #dadce0;
+    margin-top: 5px;
+    height: 28px;
+}
+#createminute > div > div > div > div > div > div > .ck.ck-toolbar__separator.ck-focused {
+    border-color: transparent;
+    box-shadow: none;
+    border-bottom: 2px solid #7957d5;  
+}
+
+/* Minute show */
+.minute-content {
+    padding: 20px 0 10px 0;
+}
+.minute-content > span > ol {
+    padding-left: 40px;
+}
+.minute-content > span > ul {
+    list-style-type: circle;
+    padding-left: 40px;
+}
+
+/* Task in create minute */
+.taskitem {
+    border-bottom: 1px solid #e0e0e0;
+    min-height: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.taskitem:hover {
+    background-color: rgba(0, 0, 0, 0.01);
+    outline: 0;
+    z-index: 2000;    
+}
+.taskduedate {
+    font-size: 8pt;
+}
