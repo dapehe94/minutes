@@ -14,7 +14,7 @@
     "@ckeditor/ckeditor5-build-classic": "^12.4.0",
     "@ckeditor/ckeditor5-vue": "^1.0.1",
     "buefy": "^0.8.20",
-    "moment": "^2.27.0",
+    "moment": "^2.29.2",
     "vee-validate": "^2.1.0",
     "vue": "^2.6.11",
     "vue-avatar": "^2.3.0",
